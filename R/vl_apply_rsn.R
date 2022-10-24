@@ -11,7 +11,7 @@
 #' @param base_family, base font family
 #' @export
 
-apply_prm_style <- function(spec = NULL, base_family = "Open Sans") {
+vl_apply_rsn <- function(spec = NULL, base_family = "Open Sans") {
     vegabrite::vl_config_title(
         spec,
         orient = "top",
