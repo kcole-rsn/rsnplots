@@ -1,0 +1,16 @@
+Package: rsnplots
+Title: Theme utilities for 'ggplot2' and 'vegabrite' in the Refugee Solidarity Network style
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Kevin", family = "Cole", email = "kevin@rsn.ngo", role = c("aut", "cre"))
+Description: Provides theme utilities to standardize plots created in both "ggplot2" and "vegabrite" (an R wrapper for the Vega-Lite API), in line with Refugee Solidarity Network (RSN) style guides. This package builds on the Urban Institute's [urbnthemes] package.
+Imports:
+    ggplot2,
+    scales,
+    extrafont,
+    ggrepel,
+    systemfonts
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
