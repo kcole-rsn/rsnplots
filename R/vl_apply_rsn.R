@@ -61,6 +61,10 @@ vl_apply_rsn <- function(spec = NULL, base_family = "Open Sans") {
         orient = "right",
         offset = 10L
     ) %>%
+    vegabrite::vl_config_headerFacet(
+        labelFont = base_family,
+        labelFontWeight = "bold"
+    ) %>%
     vegabrite::vl_config_view(stroke = "transparent") %>%
     vegabrite::vl_config(
         range = list(
