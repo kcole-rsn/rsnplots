@@ -73,21 +73,21 @@ gg_set_defaults <- function(style = "rsn",
 
   # set defaults for geoms --------------------------------------------------
 
-  ggplot2::update_geom_defaults("bar", list(fill = "#205E84"))
-  ggplot2::update_geom_defaults("col", list(fill = "#205E84"))
-  ggplot2::update_geom_defaults("point", list(colour = "#205E84", size = 3))
-  ggplot2::update_geom_defaults("line", list(colour = "#205E84", size = 1))
-  ggplot2::update_geom_defaults("step", list(colour = "#205E84", size = 1))
-  ggplot2::update_geom_defaults("path", list(colour = "#205E84", size = 1))
-  ggplot2::update_geom_defaults("boxplot", list(fill = "#205E84"))
-  ggplot2::update_geom_defaults("density", list(fill = "#205E84"))
-  ggplot2::update_geom_defaults("violin", list(fill = "#205E84"))
-  ggplot2::update_geom_defaults("sf", list(fill = "#205E84", color = "white", size = 0.1))
+  ggplot2::update_geom_defaults("bar", list(fill = "#4c78a8"))
+  ggplot2::update_geom_defaults("col", list(fill = "#4c78a8"))
+  ggplot2::update_geom_defaults("point", list(colour = "#4c78a8", size = 3))
+  ggplot2::update_geom_defaults("line", list(colour = "#4c78a8", size = 1))
+  ggplot2::update_geom_defaults("step", list(colour = "#4c78a8", size = 1))
+  ggplot2::update_geom_defaults("path", list(colour = "#4c78a8", size = 1))
+  ggplot2::update_geom_defaults("boxplot", list(fill = "#4c78a8"))
+  ggplot2::update_geom_defaults("density", list(fill = "#4c78a8"))
+  ggplot2::update_geom_defaults("violin", list(fill = "#4c78a8"))
+  ggplot2::update_geom_defaults("sf", list(fill = "#4c78a8", color = "white", size = 0.1))
 
   # set defaults for stats --------------------------------------------------
 
-  ggplot2::update_stat_defaults("count", list(fill = "#205E84"))
-  ggplot2::update_stat_defaults("boxplot", list(fill = "#205E84"))
-  ggplot2::update_stat_defaults("density", list(fill = "#205E84"))
-  ggplot2::update_stat_defaults("ydensity", list(fill = "#205E84"))
+  ggplot2::update_stat_defaults("count", list(fill = "#4c78a8"))
+  ggplot2::update_stat_defaults("boxplot", list(fill = "#4c78a8"))
+  ggplot2::update_stat_defaults("density", list(fill = "#4c78a8"))
+  ggplot2::update_stat_defaults("ydensity", list(fill = "#4c78a8"))
 }
