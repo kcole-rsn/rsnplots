@@ -109,13 +109,15 @@ gg_apply_rsn <- function(base_size = 8.5, base_family = "Open Sans",
         axis.ticks = ggplot2::element_line(),
         axis.ticks.length = ggplot2::unit(4L, "pt"),
         axis.ticks.x = ggplot2::element_line(
-            colour = NULL,
+            colour = "#d3d3d3",
             size = NULL,
             linetype = NULL,
             lineend = NULL
         ),
         axis.ticks.y = ggplot2::element_blank(),
-        axis.line = ggplot2::element_line(),
+        axis.line = ggplot2::element_line(
+            color = "#d3d3d3"
+        ),
         axis.line.x = ggplot2::element_line(
             colour = NULL,
             size = NULL,
